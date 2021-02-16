@@ -1,26 +1,47 @@
 import React from 'react';
 import './Navigation.css';
 import {Link} from 'react-scroll';
-const Navigation =()=>{
-	const DivProp = 'navBarInside f4 fw4  no-underline dn dib-ns pv2 ph3';
+const Navigation =({onButtonSubmit})=>{
+const DivProp = 'navBarInside no-underline dn dib-ns pv4 ph4 grow pointer';
+
+
 	return(
-		<div className='navBar pointer'>
+		<div className='navBar'>
+
+    		<a href='consol.com' onClick={()=>onButtonSubmit('s')} ><div className='navBarInside fl Logo'></div></a>
 			<div className={DivProp}>
 				<Link activeClass='active' to='Home' spy={true} smooth={true}>HOME</Link>
 			</div>
 
+
 			<div className={DivProp}>
-				<Link to='About' spy={true} smooth={true}>ABOUT</Link>
+				<Link to='service' spy={true} smooth={true}>OUR SERVICES</Link>
+			</div>
+
+
+			<div className={DivProp}>
+				<Link  to='polices' spy={true} smooth={true}>POLICES</Link>
+			</div>
+
+
+			<div className={DivProp}>
+				<Link to='cc' spy={true} smooth={true}>GALLLARY</Link>
 			</div>
 
 			<div className={DivProp}>
-				<Link to='Projects' spy={true} smooth={true}>PROJECT</Link>
+				<Link to='contact' spy={true} smooth={true}>CONTACT</Link>
 			</div>
 
-			<div className={DivProp}>
-				<Link to='Contact' spy={true} smooth={true}>CONTACT</Link>
+			<div 
+			className='navBarInside WhatsappBtn f5 ph3 fr dib'>
+				<Link to='cc' spy={true} smooth={true}>WHATSAPP</Link>
 			</div>
+
+
+
+
+
 		</div>
-		);
+	);
 }
 export default Navigation;

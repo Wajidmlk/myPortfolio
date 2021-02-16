@@ -1,0 +1,45 @@
+.FooterMain{
+	height: auto;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+
+	border-top: 2px yellow solid;
+	border-radius: 10px 10px 0 0;
+	background-color: #0f0e17;
+	opacity: 0.9;
+	background-image:  radial-gradient(#f39f8f 1.75px, transparent 1.75px), radial-gradient(#f39f8f 1.75px, #0f0e17 1.75px);
+	background-size: 70px 70px;
+	background-position: 0 0,35px 35px;
+	}
+
+.FooterBody{
+	justify-content: center;
+	display: flex;
+	flex-direction: row;	
+	width: 100%;
+	padding: 2%;
+}
+
+.FooterAdresses{
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	padding-right: 5%;	
+}
+
+.FooterAddressBox{
+	width: 250px;
+	margin-right: 10px;
+	margin-left: 10px;
+	min-width: 150px;
+	
+  text-shadow: black 1px 0 2px;
+}
+.FooterSign{
+	height: auto;
+	width: 100%;
+	padding:2px;
+	background-color: black;
+	opacity: 0.9;
+}

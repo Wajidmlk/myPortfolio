@@ -9,6 +9,8 @@
 	bottom: 0;
 	left: 0;
 	right: 0;	
+	height: 100%;
+	width:100%;
 }
 .Name{
 	padding-top: 40vh;
@@ -17,5 +19,18 @@
     flex-direction: column;
     justify-content: center;
     
+}
+.image-container{
+	height: 100vh;
+	width:100%;
+
+}
+.data-container{
+	margin-top:35vh; 
+	margin-left:5%; 
+	height: 50vh;
+	width:95%;
+	position: absolute; 
+    letter-spacing: 3px;
 }
 

@@ -1,8 +1,8 @@
 {
-  "name": "myportfolio",
+  "name": "consol",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://wajidmlk.github.io/myPortfolio",
+  "homepage": "http://wajidmlk.github.io/consolwebpage",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
@@ -15,6 +15,7 @@
     "react-scripts": "4.0.1",
     "react-scroll": "^1.8.1",
     "react-scroll-parallax": "^2.3.5",
+    "react-slideshow-image": "^3.4.3",
     "tachyons": "^4.12.0",
     "web-vitals": "^0.2.4"
   },

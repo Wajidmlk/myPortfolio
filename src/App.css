@@ -42,3 +42,15 @@
     transform: rotate(360deg);
   }
 }
+
+.Headings{
+
+    font-family: "Cairo", Helvetica, Arial, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    color:#ffaa00;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 400;
+    padding-top: 25px;
+}
